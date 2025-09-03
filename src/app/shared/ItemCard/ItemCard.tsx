@@ -69,7 +69,6 @@ const ItemCard: React.FC<MenuItem> = ({
         <div className="menu_card_container">
             <div className="menu_image">
                 <img src={imageUrl} alt="Item image" />
-                
             </div>
             <div className="menu_content">
                 <h2 className="item_name">{name}</h2>

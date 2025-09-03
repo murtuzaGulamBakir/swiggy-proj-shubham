@@ -1,6 +1,7 @@
 import CategoryFilter from "./components/Filters/CategoryFilter/CategoryFilter";
 import InputFilter from "./components/Filters/InputFilter/InputFilters";
 import PriceFilter from "./components/Filters/PriceFilter/PriceFilter";
+import PriceSort from "./components/Filters/SortByPrice/SortByPrice";
 import MenuItems from "./components/MenuItems/MenuItems";
 
 export default function Home() {
@@ -10,12 +11,14 @@ export default function Home() {
                 style={{
                     display: "flex",
                     gap: "10px",
-                    justifyContent: "flex-start",
+                    width: "100%",
+                    alignItems: "center",
                 }}
             >
                 <InputFilter />
                 <CategoryFilter />
                 <PriceFilter />
+                <PriceSort />
             </div>
             <MenuItems />
         </>
