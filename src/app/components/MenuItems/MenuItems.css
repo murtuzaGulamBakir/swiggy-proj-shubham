@@ -1,0 +1,7 @@
+.menu_items_container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* border: 1px solid white; */
+}
