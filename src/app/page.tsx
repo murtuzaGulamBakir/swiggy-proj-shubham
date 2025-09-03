@@ -13,6 +13,9 @@ export default function Home() {
                     gap: "10px",
                     width: "100%",
                     alignItems: "center",
+                    padding: "3px 10px",
+                    border: "1px solid white",
+                    borderRadius: "8px",
                 }}
             >
                 <InputFilter />
